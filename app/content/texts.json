@@ -1,0 +1,137 @@
+{
+    "en": {
+        "header": {
+            "nav": {
+                "home": "Home",
+                "legal": "Legal Notice",
+                "privacy": "Privacy Policy"
+            },
+            "language": "Language"
+        },
+        "salutation": {
+            "brandName": "Rosen Apartments",
+            "slogan": "Your comfortable stay in our beautiful city"
+        },
+        "information": {
+            "address": "Rosen Straße 2, 66111, Saarbrücken, Germany",
+            "services": {
+                "wifi": "Free High-Speed WiFi",
+                "parking": "Private Parking",
+                "kitchen": "Fully Equipped Kitchen",
+                "cleaning": "Daily Cleaning"
+            },
+            "sizes": {
+                "studio": "Studio - 35m²",
+                "suite": "Suite - 55m²",
+                "family": "Family Apartment - 85m²"
+            }
+        },
+        "reservation": {
+            "title": "Book Your Stay",
+            "checkIn": "Check-In Date",
+            "checkOut": "Check-Out Date",
+            "guests": "Guests",
+            "button": "Check Availability"
+        },
+        "contact": {
+            "title": "Contact Us",
+            "name": "Your Name",
+            "email": "Your Email",
+            "message": "Your Message",
+            "send": "Send Message"
+        },
+        "footer": {
+            "copyright": "© 2024 Rosen Apartments. All rights reserved."
+        }
+    },
+    "de": {
+        "header": {
+            "nav": {
+                "home": "Startseite",
+                "legal": "Impressum",
+                "privacy": "Datenschutz"
+            },
+            "language": "Sprache"
+        },
+        "salutation": {
+            "brandName": "Rosen Apartments",
+            "slogan": "Ihr komfortabler Aufenthalt in unserer schönen Stadt"
+        },
+        "information": {
+            "address": "Rosen Straße 2, 66111, Saarbrücken, Deutschland",
+            "services": {
+                "wifi": "Kostenloses Highspeed-WLAN",
+                "parking": "Privatparkplatz",
+                "kitchen": "Vollausgestattete Küche",
+                "cleaning": "Tägliche Reinigung"
+            },
+            "sizes": {
+                "studio": "Studio - 35m²",
+                "suite": "Suite - 55m²",
+                "family": "Familienapartment - 85m²"
+            }
+        },
+        "reservation": {
+            "title": "Buchen Sie Ihren Aufenthalt",
+            "checkIn": "Anreisedatum",
+            "checkOut": "Abreisedatum",
+            "guests": "Gäste",
+            "button": "Verfügbarkeit prüfen"
+        },
+        "contact": {
+            "title": "Kontaktieren Sie uns",
+            "name": "Ihr Name",
+            "email": "Ihre E-Mail",
+            "message": "Ihre Nachricht",
+            "send": "Nachricht senden"
+        },
+        "footer": {
+            "copyright": "© 2024 Rosen Apartments. Alle Rechte vorbehalten."
+        }
+    },
+    "fr": {
+        "header": {
+            "nav": {
+                "home": "Accueil",
+                "legal": "Mentions Légales",
+                "privacy": "Confidentialité"
+            },
+            "language": "Langue"
+        },
+        "salutation": {
+            "brandName": "Rosen Apartments",
+            "slogan": "Votre séjour confortable dans notre belle ville"
+        },
+        "information": {
+            "address": "Rosen Straße 2, 66111, Saarbrücken, Allemagne",
+            "services": {
+                "wifi": "WiFi Haut Débit Gratuit",
+                "parking": "Parking Privé",
+                "kitchen": "Cuisine Tout Équipée",
+                "cleaning": "Ménage Quotidien"
+            },
+            "sizes": {
+                "studio": "Studio - 35m²",
+                "suite": "Suite - 55m²",
+                "family": "Appartement Familial - 85m²"
+            }
+        },
+        "reservation": {
+            "title": "Réservez votre séjour",
+            "checkIn": "Date d'arrivée",
+            "checkOut": "Date de départ",
+            "guests": "Invités",
+            "button": "Vérifier la disponibilité"
+        },
+        "contact": {
+            "title": "Contactez-nous",
+            "name": "Votre Nom",
+            "email": "Votre Email",
+            "message": "Votre Message",
+            "send": "Envoyer le message"
+        },
+        "footer": {
+            "copyright": "© 2024 Rosen Apartments. Tous droits réservés."
+        }
+    }
+}
