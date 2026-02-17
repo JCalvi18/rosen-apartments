@@ -15,25 +15,36 @@ export const ContactForm: React.FC = () => {
                     <div className={styles.heading}>
                         <h2 className={styles.title}>{content.title}</h2>
                     </div>
-                    <form className={styles.form}>
-                        <div>
-                            <label htmlFor="name" className={styles.label}>{content.name}</label>
-                            <input type="text" id="name" name="name" className={styles.input} />
+
+                    {/* Google Maps Placeholder */}
+                    <div className={styles.mapContainer}>
+                        <div className={styles.mapPlaceholder}>
+                            Google Maps Implementation Required
                         </div>
-                        <div>
-                            <label htmlFor="email" className={styles.label}>{content.email}</label>
-                            <input type="email" id="email" name="email" className={styles.input} />
-                        </div>
-                        <div>
-                            <label htmlFor="message" className={styles.label}>{content.message}</label>
-                            <textarea id="message" name="message" className={styles.textarea}></textarea>
-                        </div>
-                        <div>
-                            <button type="submit" className={styles.button}>
-                                {content.send}
-                            </button>
-                        </div>
-                    </form>
+                    </div>
+
+                    {/* Contact Form */}
+                    <div className={styles.formContainer}>
+                        <form className={styles.form}>
+                            <div>
+                                <label htmlFor="name" className={styles.label}>{content.name}</label>
+                                <input type="text" id="name" name="name" className={styles.input} />
+                            </div>
+                            <div>
+                                <label htmlFor="email" className={styles.label}>{content.email}</label>
+                                <input type="email" id="email" name="email" className={styles.input} />
+                            </div>
+                            <div>
+                                <label htmlFor="message" className={styles.label}>{content.message}</label>
+                                <textarea id="message" name="message" className={styles.textarea}></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" className={styles.button}>
+                                    {content.send}
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>

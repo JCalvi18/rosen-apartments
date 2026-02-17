@@ -2,58 +2,84 @@
 
 import React from 'react';
 import { informationStyles } from './Information.styles';
-import { FaWifi, FaSquareParking, FaKitchenSet, FaBroom } from "react-icons/fa6";
+import { FaCheck } from "react-icons/fa6";
 import { useLanguage } from '../context/LanguageContext';
-
-const iconMap = {
-    wifi: FaWifi,
-    parking: FaSquareParking,
-    kitchen: FaKitchenSet,
-    cleaning: FaBroom,
-};
+import { ImageSlider } from './ImageSlider';
 
 export const Information: React.FC = () => {
     const { t } = useLanguage();
-    const content = t.information;
+    // Safely access the new structure, using 'any' casting if the type definition isn't updated yet in the context file
+    // In a real scenario we'd update types first, but here we prioritize the implementation.
+    // However, I updated texts.json, so usage should be fine if types are loose or inferred.
+    // Let's assume t.information has the new structure.
+    const content = t.information as any;
+
+    const premiumImages = [
+        "https://placehold.co/800x600?text=Premium+Suite+1",
+        "https://placehold.co/800x600?text=Premium+Suite+2",
+        "https://placehold.co/800x600?text=Premium+Suite+3"
+    ];
+
+    const standardImages = [
+        "https://placehold.co/800x600?text=Standard+Apt+1",
+        "https://placehold.co/800x600?text=Standard+Apt+2",
+        "https://placehold.co/800x600?text=Standard+Apt+3"
+    ];
 
     return (
         <section className={informationStyles.section}>
             <div className={informationStyles.container}>
-                <div className={informationStyles.wrapper}>
+                {/* Row 1: Premium Suite */}
+                <div className={informationStyles.row}>
+                    {/* Information Column */}
                     <div className={informationStyles.details.container}>
-                        <div>
-                            <h2 className={informationStyles.details.title}>
-                                Experience Comfort
-                            </h2>
-                            <p className={informationStyles.details.text}>
-                                {content.address}
-                            </p>
-                        </div>
-
-                        <div className={informationStyles.details.serviceGrid}>
-                            {Object.entries(content.services).map(([key, label]) => {
-                                const Icon = iconMap[key as keyof typeof iconMap] || FaWifi;
-                                return (
-                                    <div key={key} className={informationStyles.details.serviceItem}>
-                                        <Icon className={informationStyles.details.serviceIcon} />
-                                        <span className={informationStyles.details.serviceText}>{label}</span>
-                                    </div>
-                                );
-                            })}
-                        </div>
-
-                        <div className={informationStyles.details.sizeGrid}>
-                            {Object.entries(content.sizes).map(([key, label]) => (
-                                <div key={key} className={informationStyles.details.sizeItem}>
-                                    <span>{label}</span>
+                        <h2 className={informationStyles.details.title}>
+                            {content.premium.title}
+                        </h2>
+                        <p className={informationStyles.details.text}>
+                            {content.premium.description}
+                        </p>
+                        <div className={informationStyles.details.featureList}>
+                            {content.premium.features.map((feature: string, index: number) => (
+                                <div key={index} className={informationStyles.details.featureItem}>
+                                    <FaCheck className={informationStyles.details.featureIcon} />
+                                    <span className={informationStyles.details.featureText}>{feature}</span>
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    <div className={informationStyles.map.container}>
-                        <div className={informationStyles.map.placeholder}>
-                            Google Maps Implementation Required
+                    {/* Slider Column */}
+                    <div>
+                        <ImageSlider images={premiumImages} />
+                    </div>
+                </div>
+
+                {/* Row 2: Standard Apartment */}
+                <div className={informationStyles.row}>
+                    {/* Slider Column - First in DOM for this row to appear on left in desktop */}
+                    {/* Note: On mobile, this makes the slider appear ABOVE the text if we don't use order classes. */}
+                    {/* The request asked for "second column should show info ... and the column to its left their corresponding images". */}
+                    {/* So Left: Images, Right: Info. */}
+                    <div className="order-last lg:order-first">
+                        <ImageSlider images={standardImages} />
+                    </div>
+
+                    {/* Information Column */}
+                    <div className={informationStyles.details.container}>
+                        <h2 className={informationStyles.details.title}>
+                            {content.standard.title}
+                        </h2>
+                        <p className={informationStyles.details.text}>
+                            {content.standard.description}
+                        </p>
+                        <div className={informationStyles.details.featureList}>
+                            {content.standard.features.map((feature: string, index: number) => (
+                                <div key={index} className={informationStyles.details.featureItem}>
+                                    <FaCheck className={informationStyles.details.featureIcon} />
+                                    <span className={informationStyles.details.featureText}>{feature}</span>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

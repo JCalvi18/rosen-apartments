@@ -13,17 +13,25 @@
             "slogan": "Your comfortable stay in our beautiful city"
         },
         "information": {
-            "address": "Rosen Straße 2, 66111, Saarbrücken, Germany",
-            "services": {
-                "wifi": "Free High-Speed WiFi",
-                "parking": "Private Parking",
-                "kitchen": "Fully Equipped Kitchen",
-                "cleaning": "Daily Cleaning"
+            "premium": {
+                "title": "Premium Suite",
+                "description": "Experience luxury in our spacious Premium Suite, featuring modern amenities and breathtaking views.",
+                "features": [
+                    "King Size Bed",
+                    "City View",
+                    "Smart TV",
+                    "Mini Bar"
+                ]
             },
-            "sizes": {
-                "studio": "Studio - 35m²",
-                "suite": "Suite - 55m²",
-                "family": "Family Apartment - 85m²"
+            "standard": {
+                "title": "Standard Apartment",
+                "description": "Our comfortable Standard Apartment offers everything you need for a relaxing stay at an affordable price.",
+                "features": [
+                    "Queen Size Bed",
+                    "Garden View",
+                    "Work Desk",
+                    "Coffee Machine"
+                ]
             }
         },
         "reservation": {
@@ -58,17 +66,25 @@
             "slogan": "Ihr komfortabler Aufenthalt in unserer schönen Stadt"
         },
         "information": {
-            "address": "Rosen Straße 2, 66111, Saarbrücken, Deutschland",
-            "services": {
-                "wifi": "Kostenloses Highspeed-WLAN",
-                "parking": "Privatparkplatz",
-                "kitchen": "Vollausgestattete Küche",
-                "cleaning": "Tägliche Reinigung"
+            "premium": {
+                "title": "Premium Suite",
+                "description": "Erleben Sie Luxus in unserer geräumigen Premium Suite mit modernen Annehmlichkeiten und atemberaubender Aussicht.",
+                "features": [
+                    "Kingsize-Bett",
+                    "Stadtblick",
+                    "Smart TV",
+                    "Minibar"
+                ]
             },
-            "sizes": {
-                "studio": "Studio - 35m²",
-                "suite": "Suite - 55m²",
-                "family": "Familienapartment - 85m²"
+            "standard": {
+                "title": "Standard Apartment",
+                "description": "Unser komfortables Standard Apartment bietet alles, was Sie für einen erholsamen Aufenthalt zu einem erschwinglichen Preis benötigen.",
+                "features": [
+                    "Queensize-Bett",
+                    "Gartenblick",
+                    "Schreibtisch",
+                    "Kaffeemaschine"
+                ]
             }
         },
         "reservation": {
@@ -103,17 +119,25 @@
             "slogan": "Votre séjour confortable dans notre belle ville"
         },
         "information": {
-            "address": "Rosen Straße 2, 66111, Saarbrücken, Allemagne",
-            "services": {
-                "wifi": "WiFi Haut Débit Gratuit",
-                "parking": "Parking Privé",
-                "kitchen": "Cuisine Tout Équipée",
-                "cleaning": "Ménage Quotidien"
+            "premium": {
+                "title": "Suite Premium",
+                "description": "Découvrez le luxe dans notre spacieuse Suite Premium, dotée d'équipements modernes et d'une vue imprenable.",
+                "features": [
+                    "Lit King Size",
+                    "Vue sur la Ville",
+                    "Smart TV",
+                    "Mini Bar"
+                ]
             },
-            "sizes": {
-                "studio": "Studio - 35m²",
-                "suite": "Suite - 55m²",
-                "family": "Appartement Familial - 85m²"
+            "standard": {
+                "title": "Appartement Standard",
+                "description": "Notre Appartement Standard confortable offre tout ce dont vous avez besoin pour un séjour relaxant à un prix abordable.",
+                "features": [
+                    "Lit Queen Size",
+                    "Vue sur le Jardin",
+                    "Bureau",
+                    "Machine à Café"
+                ]
             }
         },
         "reservation": {
