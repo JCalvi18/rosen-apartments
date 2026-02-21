@@ -9,21 +9,13 @@ export const ContactForm: React.FC = () => {
     const content = t.contact;
 
     return (
-        <section className={styles.section}>
+        <section id="contact" className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.wrapper}>
                     <div className={styles.heading}>
                         <h2 className={styles.title}>{content.title}</h2>
                     </div>
 
-                    {/* Google Maps Placeholder */}
-                    <div className={styles.mapContainer}>
-                        <div className={styles.mapPlaceholder}>
-                            Google Maps Implementation Required
-                        </div>
-                    </div>
-
-                    {/* Contact Form */}
                     <div className={styles.formContainer}>
                         <form className={styles.form}>
                             <div>

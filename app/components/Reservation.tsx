@@ -20,7 +20,7 @@ export const Reservation: React.FC = () => {
     };
 
     return (
-        <section className={reservationStyles.section}>
+        <section id="reservation" className={reservationStyles.section}>
             <div className={reservationStyles.container}>
                 <div className={reservationStyles.wrapper}>
                     <div className={reservationStyles.header}>

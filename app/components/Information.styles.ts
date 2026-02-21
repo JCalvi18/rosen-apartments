@@ -1,14 +1,13 @@
 export const informationStyles = {
-    section: "py-16 bg-white overflow-hidden",
-    container: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24",
-    row: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
-    details: {
-        container: "space-y-6",
-        title: "text-3xl font-extrabold text-gray-900 sm:text-4xl",
-        text: "mt-4 text-lg text-gray-500",
-        featureList: "mt-8 space-y-4",
-        featureItem: "flex items-center space-x-3",
-        featureIcon: "h-5 w-5 text-blue-600 flex-shrink-0",
-        featureText: "text-base font-medium text-gray-700",
-    }
+    section: "py-16 bg-white",
+    container: "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12",
+    cardRow: "grid grid-cols-1 sm:grid-cols-2 gap-8",
+
+    // Shared amenities strip
+    sharedSection: "bg-gray-50 rounded-2xl px-8 py-8",
+    sharedHeading: "text-xs font-semibold uppercase tracking-widest text-gray-400 text-center mb-6",
+    sharedTilesRow: "flex flex-wrap justify-center gap-8",
+    sharedTile: "flex flex-col items-center gap-2",
+    sharedTileIcon: "text-blue-600",
+    sharedTileLabel: "text-sm text-gray-600 text-center font-medium",
 };

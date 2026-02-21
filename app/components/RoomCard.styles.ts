@@ -1,0 +1,27 @@
+export const roomCardStyles = {
+    card: "bg-white rounded-2xl shadow-md overflow-hidden flex flex-col",
+    title: "text-xl font-bold text-gray-900 px-6 pt-6 pb-4",
+    sliderWrapper: "cursor-pointer",
+    tilesRow: "px-6 pt-5 flex flex-wrap justify-center gap-6",
+    tile: "flex flex-col items-center gap-2",
+    tileIcon: "text-blue-600",
+    tileLabel: "text-xs text-gray-500 text-center font-medium leading-tight",
+    tileDivider: "mx-6 mt-5 border-gray-100",
+    body: "px-6 pt-3 flex flex-col flex-1",
+    description: "text-gray-500 text-sm leading-relaxed line-clamp-2",
+    readMore: "mt-1 text-blue-600 text-sm font-medium hover:underline self-start cursor-pointer",
+    divider: "mt-4 border-gray-200",
+    price: "pt-4 pb-6 text-lg font-semibold text-gray-900",
+
+    // Modal
+    overlay: "fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4",
+    modal: "bg-white rounded-2xl shadow-xl w-full max-w-lg max-h-[85vh] flex flex-col",
+    modalHeader: "flex items-center justify-between px-6 py-4 border-b border-gray-200",
+    modalTitle: "text-lg font-bold text-gray-900",
+    modalClose: "text-gray-400 hover:text-gray-700 transition-colors text-2xl leading-none",
+    modalBody: "overflow-y-auto px-6 py-4 grid grid-cols-2 gap-x-6 gap-y-5",
+    sectionTitle: "text-xs font-semibold uppercase tracking-widest text-blue-600 mb-2",
+    sectionItems: "space-y-1",
+    sectionItem: "flex items-center gap-2 text-sm text-gray-700",
+    sectionItemDot: "w-1.5 h-1.5 rounded-full bg-gray-400 flex-shrink-0",
+};

@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 import content from '../content/texts.json';
 
-export type Language = 'en' | 'de' | 'fr';
+export type Language = 'en' | 'de' | 'fr' | 'es' | 'ru';
 type ContentType = typeof content['en'];
 
 interface LanguageContextType {

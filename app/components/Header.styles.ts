@@ -17,7 +17,14 @@ export const headerStyles = {
     container: "relative flex items-center gap-4",
     langButton: "flex items-center gap-1 text-sm text-gray-500 hover:text-gray-900 font-medium px-3 py-2 rounded-md hover:bg-gray-100 transition-colors",
     dropdown: "absolute top-full right-0 mt-2 w-32 bg-white rounded-md shadow-lg py-1 border border-gray-100 ring-1 ring-black ring-opacity-5 focus:outline-none",
-    dropdownItem: "flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors text-left",
+    dropdownItem: "flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors text-left gap-2",
     activeItem: "bg-blue-50 text-blue-700",
-  }
+  },
+  sectionNav: {
+    bar: "overflow-hidden transition-all duration-300 border-t border-gray-100",
+    barVisible: "max-h-10 opacity-100",
+    barHidden: "max-h-0 opacity-0",
+    inner: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-1 h-10",
+    link: "px-3 py-1 text-sm text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors font-medium whitespace-nowrap",
+  },
 };

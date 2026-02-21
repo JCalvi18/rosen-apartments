@@ -2,6 +2,10 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import { Montserrat } from 'next/font/google';
+
+const montserrat = Montserrat({ subsets: ['latin'], weight: ['700'] });
 import { headerStyles } from './Header.styles';
 import { Language, useLanguage } from '../context/LanguageContext';
 
@@ -9,12 +13,24 @@ export const Header: React.FC = () => {
     const { t, language, setLanguage } = useLanguage();
 
     const [isOpen, setIsOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
     const dropdownRef = useRef<HTMLDivElement>(null);
 
-    const languages: { code: Language; label: string }[] = [
-        { code: 'en', label: 'English' },
-        { code: 'de', label: 'Deutsch' },
-        { code: 'fr', label: 'Français' }
+    const languages: { code: Language; label: string; flag: string }[] = [
+        { code: 'en', label: 'English', flag: '🇬🇧' },
+        { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
+        { code: 'fr', label: 'Français', flag: '🇫🇷' },
+        { code: 'es', label: 'Español', flag: '🇪🇸' },
+        { code: 'ru', label: 'Русский', flag: '🇷🇺' },
+    ];
+
+    const sectionNav = (t.header as any).sectionNav;
+    const sections = [
+        { id: 'rooms',       label: sectionNav.rooms },
+        { id: 'location',    label: sectionNav.location },
+        { id: 'reviews',     label: sectionNav.reviews },
+        { id: 'reservation', label: sectionNav.reservation },
+        { id: 'contact',     label: sectionNav.contact },
     ];
 
     useEffect(() => {
@@ -30,6 +46,16 @@ export const Header: React.FC = () => {
         };
     }, []);
 
+    useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 10);
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const scrollTo = (id: string) => {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    };
+
     const handleLanguageSelect = (lang: Language) => {
         setLanguage(lang);
         setIsOpen(false);
@@ -40,10 +66,9 @@ export const Header: React.FC = () => {
             <div className={headerStyles.container}>
                 <div className={headerStyles.wrapper}>
                     <div className={headerStyles.logo.link}>
-                        {/* Simple Logo Placeholder */}
-                        <div className="h-8 w-8 bg-blue-600 rounded-lg"></div>
-                        <Link href="/" className={headerStyles.logo.text}>
-                            Rosen Apartments
+                        <Image src="/images/logo.png" alt="Rosen Appartements" width={32} height={32} />
+                        <Link href="/" className={`${headerStyles.logo.text} ${montserrat.className}`}>
+                            Rosen Appartements
                         </Link>
                     </div>
 
@@ -58,6 +83,7 @@ export const Header: React.FC = () => {
                             onClick={() => setIsOpen(!isOpen)}
                             className={headerStyles.controls.langButton}
                         >
+                            <span>{languages.find(l => l.code === language)?.flag}</span>
                             <span>{language.toUpperCase()}</span>
                             <svg className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -72,12 +98,27 @@ export const Header: React.FC = () => {
                                         onClick={() => handleLanguageSelect(lang.code)}
                                         className={`${headerStyles.controls.dropdownItem} ${language === lang.code ? headerStyles.controls.activeItem : ''}`}
                                     >
-                                        {lang.label}
+                                        <span>{lang.flag}</span>
+                                        <span>{lang.label}</span>
                                     </button>
                                 ))}
                             </div>
                         )}
                     </div>
+                </div>
+            </div>
+            {/* Section nav — slides in on scroll */}
+            <div className={`${headerStyles.sectionNav.bar} ${scrolled ? headerStyles.sectionNav.barVisible : headerStyles.sectionNav.barHidden}`}>
+                <div className={headerStyles.sectionNav.inner}>
+                    {sections.map((s) => (
+                        <button
+                            key={s.id}
+                            onClick={() => scrollTo(s.id)}
+                            className={headerStyles.sectionNav.link}
+                        >
+                            {s.label}
+                        </button>
+                    ))}
                 </div>
             </div>
         </header>

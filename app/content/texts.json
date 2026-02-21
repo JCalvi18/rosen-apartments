@@ -6,33 +6,172 @@
                 "legal": "Legal Notice",
                 "privacy": "Privacy Policy"
             },
-            "language": "Language"
+            "language": "Language",
+            "sectionNav": {
+                "rooms": "Rooms",
+                "location": "Location",
+                "reviews": "Reviews",
+                "reservation": "Reservation",
+                "contact": "Contact"
+            }
         },
         "salutation": {
-            "brandName": "Rosen Apartments",
-            "slogan": "Your comfortable stay in our beautiful city"
+            "brandName": "Rosen Appartements",
+            "slogan": "Your comfortable home stay in Saarbrücken"
         },
         "information": {
+            "readMore": "Read more",
+            "amenitiesHeading": "Every appartement includes",
+            "tiles": {
+                "checkIn": "24/7 Check-in",
+                "towels": "Towels",
+                "kitchen": "Full Kitchen",
+                "shower": "Shower",
+                "microwave": "Microwave",
+                "tv": "Smart TV",
+                "location": "Central",
+                "coffee": "Coffeemaker",
+                "kingsizeBed": "Kingsize Bed",
+                "queenBed": "Queen Bed",
+                "singleBed": "Two single bed",
+                "safe": "Safe"
+            },
+            "modal": {
+                "close": "Close",
+                "general": {
+                    "title": "General",
+                    "items": [
+                        "1–2 persons",
+                        "Room size up to 25 m²",
+                        "Bed: 140 cm (Premium: 180 cm)",
+                        "24/7 check-in",
+                        "Elevator"
+                    ]
+                },
+                "location": {
+                    "title": "Location",
+                    "items": [
+                        "Central location",
+                        "Shopping: 5 min walk",
+                        "Laundry room",
+                        "Restaurants nearby"
+                    ]
+                },
+                "living": {
+                    "title": "Living",
+                    "items": [
+                        "Flat screen TV (min. 32 inch)",
+                        "Seating area",
+                        "Dining table",
+                        "Wardrobe with hangers"
+                    ]
+                },
+                "kitchen": {
+                    "title": "Kitchen",
+                    "items": [
+                        "2 hot plates",
+                        "Fridge with freezer",
+                        "Microwave",
+                        "Cooking equipment",
+                        "Cutlery & Crockery",
+                        "Tap water drinkable"
+                    ]
+                },
+                "bathroom": {
+                    "title": "Bathroom",
+                    "items": [
+                        "Shower",
+                        "Towels"
+                    ]
+                },
+                "cleaning": {
+                    "title": "Cleaning",
+                    "items": [
+                        "Weekly professional cleaning",
+                        "Washing machine (paid)",
+                        "Dryer (paid)",
+                        "Clothes drying rack (free)",
+                        "Cleaning supplies (free)"
+                    ]
+                },
+                "premiumExtras": {
+                    "title": "Extras – Premium",
+                    "items": [
+                        "Coffeemaker",
+                        "Minibar with drinks & snacks",
+                        "Safe",
+                        "Kingsize bed",
+                        "Exclusive furniture"
+                    ]
+                },
+                "notPossible": {
+                    "title": "Not possible",
+                    "items": [
+                        "Pets",
+                        "Air conditioning",
+                        "Car parking"
+                    ]
+                }
+            },
             "premium": {
-                "title": "Premium Suite",
-                "description": "Experience luxury in our spacious Premium Suite, featuring modern amenities and breathtaking views.",
+                "title": "Premium Appartement",
+                "price": "From €120 / night",
+                "description": "Experience luxury in our spacious Premium Appartement, featuring exclusive furniture, a kingsize bed, minibar, and breathtaking city views.",
                 "features": [
-                    "King Size Bed",
+                    "Kingsize Bed",
                     "City View",
                     "Smart TV",
                     "Mini Bar"
                 ]
             },
             "standard": {
-                "title": "Standard Apartment",
-                "description": "Our comfortable Standard Apartment offers everything you need for a relaxing stay at an affordable price.",
+                "title": "Comfort Appartement",
+                "price": "From €75 / night",
+                "description": "Our comfortable Comfort Appartement offers everything you need for a relaxing stay — fully equipped kitchen, smart TV, and a central location.",
                 "features": [
                     "Queen Size Bed",
                     "Garden View",
                     "Work Desk",
                     "Coffee Machine"
                 ]
+            },
+            "studio": {
+                "title": "Studio Appartement",
+                "price": "From €75 / night",
+                "description": "Our studio twin Comfort Appartement offers two beds with everything you need for a relaxing stay — fully equipped kitchen, smart TV, and a central location.",
+                "features": [
+                    "Twin Bed",
+                    "Garden View",
+                    "Work Desk",
+                    "Coffee Machine"
+                ]
             }
+        },
+        "location": {
+            "title": "Location",
+            "addressTitle": "Address",
+            "street": "Rosenstraße 2",
+            "city": "66111 Saarbrücken",
+            "country": "Germany",
+            "arrivalTitle": "Getting Here",
+            "arrival": [
+                "Hauptbahnhof Saarbrücken – 2Km (15 min walk)",
+                "S-Landwehrplatz – 300 m (4 min walk)",
+                "Bus: St. Johanner Markt – 420 m",
+                "Bus: Paul-Marienstraße – 200 m",
+                "A620 – 2.5 km by car",
+                "A6 – 15 km by car"
+            ],
+            "nearbyTitle": "Nearby",
+            "nearby": [
+                "St. Johanner Markt (Citycenter) – 350 m",
+                "Saarland Museum Moderne Galerie – 550 m",
+                "Saarbrücker Schloss – 650 m",
+                "Saarländisches Staatstheater – 400 m",
+                "Landgericht Saarbrücken – 500 m",
+                "Edeka Lohnsdorfer – 1.2 km",
+                "Aldi / Lidl – 900 m"
+            ]
         },
         "reservation": {
             "title": "Book Your Stay",
@@ -49,7 +188,7 @@
             "send": "Send Message"
         },
         "footer": {
-            "copyright": "© 2024 Rosen Apartments. All rights reserved."
+            "copyright": "© 2026 Rosen Apartments. All rights reserved."
         }
     },
     "de": {
@@ -59,16 +198,116 @@
                 "legal": "Impressum",
                 "privacy": "Datenschutz"
             },
-            "language": "Sprache"
+            "language": "Sprache",
+            "sectionNav": {
+                "rooms": "Zimmer",
+                "location": "Lage",
+                "reviews": "Bewertungen",
+                "reservation": "Reservierung",
+                "contact": "Kontakt"
+            }
         },
         "salutation": {
             "brandName": "Rosen Apartments",
             "slogan": "Ihr komfortabler Aufenthalt in unserer schönen Stadt"
         },
         "information": {
+            "readMore": "Mehr lesen",
+            "amenitiesHeading": "Jedes Appartement beinhaltet",
+            "tiles": {
+                "checkIn": "24/7 Check-in",
+                "towels": "Handtücher",
+                "kitchen": "Vollküche",
+                "shower": "Dusche",
+                "microwave": "Mikrowelle",
+                "tv": "Smart TV",
+                "location": "Zentral",
+                "coffee": "Kaffeemaschine",
+                "kingsizeBed": "Kingsize-Bett",
+                "queenBed": "Queensize-Bett",
+                "safe": "Safe"
+            },
+            "modal": {
+                "close": "Schließen",
+                "general": {
+                    "title": "Allgemein",
+                    "items": [
+                        "1–2 Personen",
+                        "Zimmergröße bis 25 m²",
+                        "Bettgröße 140 cm (Premium: 180 cm)",
+                        "24/7 Check-in",
+                        "Aufzug"
+                    ]
+                },
+                "location": {
+                    "title": "Lage",
+                    "items": [
+                        "Zentrale Lage",
+                        "Einkaufen: 5 Minuten zu Fuß",
+                        "Waschküche",
+                        "Restaurants in der Nähe"
+                    ]
+                },
+                "living": {
+                    "title": "Wohnen",
+                    "items": [
+                        "Flachbild-TV (mind. 32 Zoll)",
+                        "Sitzbereich",
+                        "Esstisch",
+                        "Kleiderschrank mit Bügeln"
+                    ]
+                },
+                "kitchen": {
+                    "title": "Küche",
+                    "items": [
+                        "2 Kochplatten",
+                        "Kühlschrank mit Gefrierfach",
+                        "Mikrowelle",
+                        "Kochgeschirr",
+                        "Besteck & Geschirr",
+                        "Leitungswasser trinkbar"
+                    ]
+                },
+                "bathroom": {
+                    "title": "Badezimmer",
+                    "items": [
+                        "Dusche",
+                        "Handtücher"
+                    ]
+                },
+                "cleaning": {
+                    "title": "Reinigung",
+                    "items": [
+                        "Wöchentliche professionelle Reinigung",
+                        "Waschmaschine (kostenpflichtig)",
+                        "Trockner (kostenpflichtig)",
+                        "Wäscheständer (kostenlos)",
+                        "Reinigungsmittel (kostenlos)"
+                    ]
+                },
+                "premiumExtras": {
+                    "title": "Extras – Premium",
+                    "items": [
+                        "Kaffeemaschine",
+                        "Minibar mit Getränken & Snacks",
+                        "Safe",
+                        "Kingsize-Bett",
+                        "Exklusives Mobiliar"
+                    ]
+                },
+                "notPossible": {
+                    "title": "Nicht möglich",
+                    "items": [
+                        "Haustiere",
+                        "Klimaanlage",
+                        "Autoparkplatz"
+                    ]
+                }
+            },
             "premium": {
-                "title": "Premium Suite",
-                "description": "Erleben Sie Luxus in unserer geräumigen Premium Suite mit modernen Annehmlichkeiten und atemberaubender Aussicht.",
+                "title": "Premium Appartement",
+                "price": "Ab €120 / Nacht",
+                "description": "Erleben Sie Luxus in unserem geräumigen Premium Appartement mit exklusivem Mobiliar, Kingsize-Bett, Minibar und atemberaubendem Stadtblick.",
                 "features": [
                     "Kingsize-Bett",
                     "Stadtblick",
@@ -77,8 +316,9 @@
                 ]
             },
             "standard": {
-                "title": "Standard Apartment",
-                "description": "Unser komfortables Standard Apartment bietet alles, was Sie für einen erholsamen Aufenthalt zu einem erschwinglichen Preis benötigen.",
+                "title": "Comfort Appartement",
+                "price": "Ab €75 / Nacht",
+                "description": "Unser Comfort Appartement bietet alles für einen erholsamen Aufenthalt – vollausgestattete Küche, Smart TV und zentrale Lage.",
                 "features": [
                     "Queensize-Bett",
                     "Gartenblick",
@@ -86,6 +326,32 @@
                     "Kaffeemaschine"
                 ]
             }
+        },
+        "location": {
+            "title": "Lage",
+            "addressTitle": "Adresse",
+            "street": "Rosenstraße 2",
+            "city": "66111 Saarbrücken",
+            "country": "Deutschland",
+            "arrivalTitle": "Anreise",
+            "arrival": [
+                "Hauptbahnhof Saarbrücken – 2 km (15 Min. zu Fuß)",
+                "S-Landwehrplatz – 300 m (4 Min. zu Fuß)",
+                "Bus: St. Johanner Markt – 420 m",
+                "Bus: Paul-Marienstraße – 200 m",
+                "A620 – 2,5 km mit dem Auto",
+                "A6 – 15 km mit dem Auto"
+            ],
+            "nearbyTitle": "In der Nähe",
+            "nearby": [
+                "St. Johanner Markt (Stadtzentrum) – 350 m",
+                "Saarland Museum Moderne Galerie – 550 m",
+                "Saarbrücker Schloss – 650 m",
+                "Saarländisches Staatstheater – 400 m",
+                "Landgericht Saarbrücken – 500 m",
+                "Edeka Lohnsdorfer – 1,2 km",
+                "Aldi / Lidl – 900 m"
+            ]
         },
         "reservation": {
             "title": "Buchen Sie Ihren Aufenthalt",
@@ -102,7 +368,7 @@
             "send": "Nachricht senden"
         },
         "footer": {
-            "copyright": "© 2024 Rosen Apartments. Alle Rechte vorbehalten."
+            "copyright": "© 2026 Rosen Apartments. Alle Rechte vorbehalten."
         }
     },
     "fr": {
@@ -112,16 +378,116 @@
                 "legal": "Mentions Légales",
                 "privacy": "Confidentialité"
             },
-            "language": "Langue"
+            "language": "Langue",
+            "sectionNav": {
+                "rooms": "Chambres",
+                "location": "Emplacement",
+                "reviews": "Avis",
+                "reservation": "Réservation",
+                "contact": "Contact"
+            }
         },
         "salutation": {
             "brandName": "Rosen Apartments",
             "slogan": "Votre séjour confortable dans notre belle ville"
         },
         "information": {
+            "readMore": "Lire la suite",
+            "amenitiesHeading": "Chaque appartement comprend",
+            "tiles": {
+                "checkIn": "Check-in 24h/24",
+                "towels": "Serviettes",
+                "kitchen": "Cuisine équipée",
+                "shower": "Douche",
+                "microwave": "Micro-ondes",
+                "tv": "Smart TV",
+                "location": "Centrale",
+                "coffee": "Machine à café",
+                "kingsizeBed": "Lit King Size",
+                "queenBed": "Lit Queen Size",
+                "safe": "Coffre-fort"
+            },
+            "modal": {
+                "close": "Fermer",
+                "general": {
+                    "title": "Général",
+                    "items": [
+                        "1–2 personnes",
+                        "Surface jusqu'à 25 m²",
+                        "Lit : 140 cm (Premium : 180 cm)",
+                        "Check-in 24h/24",
+                        "Ascenseur"
+                    ]
+                },
+                "location": {
+                    "title": "Emplacement",
+                    "items": [
+                        "Situation centrale",
+                        "Commerces : 5 min à pied",
+                        "Buanderie",
+                        "Restaurants à proximité"
+                    ]
+                },
+                "living": {
+                    "title": "Séjour",
+                    "items": [
+                        "Téléviseur écran plat (min. 32 pouces)",
+                        "Coin salon",
+                        "Table à manger",
+                        "Armoire avec cintres"
+                    ]
+                },
+                "kitchen": {
+                    "title": "Cuisine",
+                    "items": [
+                        "2 plaques de cuisson",
+                        "Réfrigérateur avec congélateur",
+                        "Micro-ondes",
+                        "Ustensiles de cuisine",
+                        "Couverts & Vaisselle",
+                        "Eau du robinet potable"
+                    ]
+                },
+                "bathroom": {
+                    "title": "Salle de bain",
+                    "items": [
+                        "Douche",
+                        "Serviettes"
+                    ]
+                },
+                "cleaning": {
+                    "title": "Ménage",
+                    "items": [
+                        "Nettoyage professionnel hebdomadaire",
+                        "Machine à laver (payante)",
+                        "Sèche-linge (payant)",
+                        "Séchoir à linge (gratuit)",
+                        "Produits ménagers (gratuits)"
+                    ]
+                },
+                "premiumExtras": {
+                    "title": "Extras – Premium",
+                    "items": [
+                        "Machine à café",
+                        "Minibar avec boissons & snacks",
+                        "Coffre-fort",
+                        "Lit King Size",
+                        "Mobilier exclusif"
+                    ]
+                },
+                "notPossible": {
+                    "title": "Non autorisé",
+                    "items": [
+                        "Animaux",
+                        "Climatisation",
+                        "Parking voiture"
+                    ]
+                }
+            },
             "premium": {
-                "title": "Suite Premium",
-                "description": "Découvrez le luxe dans notre spacieuse Suite Premium, dotée d'équipements modernes et d'une vue imprenable.",
+                "title": "Premium Appartement",
+                "price": "À partir de €120 / nuit",
+                "description": "Découvrez le luxe dans notre spacieux Premium Appartement, avec mobilier exclusif, lit king size, minibar et vue imprenable sur la ville.",
                 "features": [
                     "Lit King Size",
                     "Vue sur la Ville",
@@ -130,8 +496,9 @@
                 ]
             },
             "standard": {
-                "title": "Appartement Standard",
-                "description": "Notre Appartement Standard confortable offre tout ce dont vous avez besoin pour un séjour relaxant à un prix abordable.",
+                "title": "Comfort Appartement",
+                "price": "À partir de €75 / nuit",
+                "description": "Notre Comfort Appartement offre tout ce dont vous avez besoin pour un séjour relaxant — cuisine équipée, Smart TV et situation centrale.",
                 "features": [
                     "Lit Queen Size",
                     "Vue sur le Jardin",
@@ -139,6 +506,32 @@
                     "Machine à Café"
                 ]
             }
+        },
+        "location": {
+            "title": "Emplacement",
+            "addressTitle": "Adresse",
+            "street": "Rosenstraße 2",
+            "city": "66111 Sarrebruck",
+            "country": "Allemagne",
+            "arrivalTitle": "Comment venir",
+            "arrival": [
+                "Hauptbahnhof Saarbrücken – 2 km (15 min à pied)",
+                "S-Landwehrplatz – 300 m (4 min à pied)",
+                "Bus : St. Johanner Markt – 420 m",
+                "Bus : Paul-Marienstraße – 200 m",
+                "A620 – 2,5 km en voiture",
+                "A6 – 15 km en voiture"
+            ],
+            "nearbyTitle": "À proximité",
+            "nearby": [
+                "St. Johanner Markt (Centre-ville) – 350 m",
+                "Saarland Museum Moderne Galerie – 550 m",
+                "Saarbrücker Schloss – 650 m",
+                "Saarländisches Staatstheater – 400 m",
+                "Landgericht Saarbrücken – 500 m",
+                "Edeka Lohnsdorfer – 1,2 km",
+                "Aldi / Lidl – 900 m"
+            ]
         },
         "reservation": {
             "title": "Réservez votre séjour",
@@ -155,7 +548,367 @@
             "send": "Envoyer le message"
         },
         "footer": {
-            "copyright": "© 2024 Rosen Apartments. Tous droits réservés."
+            "copyright": "© 2026 Rosen Apartments. Tous droits réservés."
+        }
+    },
+    "es": {
+        "header": {
+            "nav": {
+                "home": "Inicio",
+                "legal": "Aviso Legal",
+                "privacy": "Política de Privacidad"
+            },
+            "language": "Idioma",
+            "sectionNav": {
+                "rooms": "Habitaciones",
+                "location": "Ubicación",
+                "reviews": "Reseñas",
+                "reservation": "Reserva",
+                "contact": "Contacto"
+            }
+        },
+        "salutation": {
+            "brandName": "Rosen Apartments",
+            "slogan": "Tu estancia cómoda en nuestra hermosa ciudad"
+        },
+        "information": {
+            "readMore": "Leer más",
+            "amenitiesHeading": "Cada apartamento incluye",
+            "tiles": {
+                "checkIn": "Check-in 24/7",
+                "towels": "Toallas",
+                "kitchen": "Cocina completa",
+                "shower": "Ducha",
+                "microwave": "Microondas",
+                "tv": "Smart TV",
+                "location": "Céntrico",
+                "coffee": "Cafetera",
+                "kingsizeBed": "Cama King Size",
+                "queenBed": "Cama Queen",
+                "safe": "Caja fuerte"
+            },
+            "modal": {
+                "close": "Cerrar",
+                "general": {
+                    "title": "General",
+                    "items": [
+                        "1–2 personas",
+                        "Tamaño hasta 25 m²",
+                        "Cama: 140 cm (Premium: 180 cm)",
+                        "Check-in 24/7",
+                        "Ascensor"
+                    ]
+                },
+                "location": {
+                    "title": "Ubicación",
+                    "items": [
+                        "Ubicación céntrica",
+                        "Tiendas: 5 min a pie",
+                        "Lavandería",
+                        "Restaurantes cercanos"
+                    ]
+                },
+                "living": {
+                    "title": "Salón",
+                    "items": [
+                        "TV pantalla plana (mín. 32 pulgadas)",
+                        "Zona de estar",
+                        "Mesa de comedor",
+                        "Armario con perchas"
+                    ]
+                },
+                "kitchen": {
+                    "title": "Cocina",
+                    "items": [
+                        "2 placas de cocción",
+                        "Frigorífico con congelador",
+                        "Microondas",
+                        "Utensilios de cocina",
+                        "Cubertería & Vajilla",
+                        "Agua del grifo potable"
+                    ]
+                },
+                "bathroom": {
+                    "title": "Baño",
+                    "items": [
+                        "Ducha",
+                        "Toallas"
+                    ]
+                },
+                "cleaning": {
+                    "title": "Limpieza",
+                    "items": [
+                        "Limpieza profesional semanal",
+                        "Lavadora (de pago)",
+                        "Secadora (de pago)",
+                        "Tendedero (gratis)",
+                        "Productos de limpieza (gratis)"
+                    ]
+                },
+                "premiumExtras": {
+                    "title": "Extras – Premium",
+                    "items": [
+                        "Cafetera",
+                        "Minibar con bebidas y snacks",
+                        "Caja fuerte",
+                        "Cama King Size",
+                        "Mobiliario exclusivo"
+                    ]
+                },
+                "notPossible": {
+                    "title": "No permitido",
+                    "items": [
+                        "Mascotas",
+                        "Aire acondicionado",
+                        "Aparcamiento"
+                    ]
+                }
+            },
+            "premium": {
+                "title": "Premium Appartement",
+                "price": "Desde €120 / noche",
+                "description": "Experimente el lujo en nuestro amplio Premium Appartement, con mobiliario exclusivo, cama king size, minibar y vistas impresionantes a la ciudad.",
+                "features": [
+                    "Cama King Size",
+                    "Vista a la ciudad",
+                    "Smart TV",
+                    "Mini Bar"
+                ]
+            },
+            "standard": {
+                "title": "Comfort Appartement",
+                "price": "Desde €75 / noche",
+                "description": "Nuestro Comfort Appartement ofrece todo lo que necesitas para una estancia relajante — cocina totalmente equipada, Smart TV y ubicación céntrica.",
+                "features": [
+                    "Cama Queen Size",
+                    "Vista al jardín",
+                    "Escritorio",
+                    "Cafetera"
+                ]
+            }
+        },
+        "location": {
+            "title": "Ubicación",
+            "addressTitle": "Dirección",
+            "street": "Rosenstraße 2",
+            "city": "66111 Saarbrücken",
+            "country": "Alemania",
+            "arrivalTitle": "Cómo llegar",
+            "arrival": [
+                "Hauptbahnhof Saarbrücken – 2 km (15 min a pie)",
+                "S-Landwehrplatz – 300 m (4 min a pie)",
+                "Bus: St. Johanner Markt – 420 m",
+                "Bus: Paul-Marienstraße – 200 m",
+                "A620 – 2,5 km en coche",
+                "A6 – 15 km en coche"
+            ],
+            "nearbyTitle": "Alrededores",
+            "nearby": [
+                "St. Johanner Markt (Centro) – 350 m",
+                "Saarland Museum Moderne Galerie – 550 m",
+                "Saarbrücker Schloss – 650 m",
+                "Saarländisches Staatstheater – 400 m",
+                "Landgericht Saarbrücken – 500 m",
+                "Edeka Lohnsdorfer – 1,2 km",
+                "Aldi / Lidl – 900 m"
+            ]
+        },
+        "reservation": {
+            "title": "Reserve su estancia",
+            "checkIn": "Fecha de entrada",
+            "checkOut": "Fecha de salida",
+            "guests": "Huéspedes",
+            "button": "Comprobar disponibilidad"
+        },
+        "contact": {
+            "title": "Contáctenos",
+            "name": "Su nombre",
+            "email": "Su email",
+            "message": "Su mensaje",
+            "send": "Enviar mensaje"
+        },
+        "footer": {
+            "copyright": "© 2026 Rosen Apartments. Todos los derechos reservados."
+        }
+    },
+    "ru": {
+        "header": {
+            "nav": {
+                "home": "Главная",
+                "legal": "Правовая информация",
+                "privacy": "Политика конфиденциальности"
+            },
+            "language": "Язык",
+            "sectionNav": {
+                "rooms": "Номера",
+                "location": "Местоположение",
+                "reviews": "Отзывы",
+                "reservation": "Бронирование",
+                "contact": "Контакт"
+            }
+        },
+        "salutation": {
+            "brandName": "Rosen Apartments",
+            "slogan": "Ваш комфортный отдых в нашем прекрасном городе"
+        },
+        "information": {
+            "readMore": "Читать далее",
+            "amenitiesHeading": "В каждом апартаменте включено",
+            "tiles": {
+                "checkIn": "Заезд 24/7",
+                "towels": "Полотенца",
+                "kitchen": "Полная кухня",
+                "shower": "Душ",
+                "microwave": "Микроволновка",
+                "tv": "Smart TV",
+                "location": "Центр",
+                "coffee": "Кофемашина",
+                "kingsizeBed": "Кровать King Size",
+                "queenBed": "Кровать Queen",
+                "safe": "Сейф"
+            },
+            "modal": {
+                "close": "Закрыть",
+                "general": {
+                    "title": "Общее",
+                    "items": [
+                        "1–2 человека",
+                        "Площадь до 25 м²",
+                        "Кровать: 140 см (Премиум: 180 см)",
+                        "Заезд 24/7",
+                        "Лифт"
+                    ]
+                },
+                "location": {
+                    "title": "Расположение",
+                    "items": [
+                        "Центральное расположение",
+                        "Магазины: 5 минут пешком",
+                        "Прачечная",
+                        "Рестораны рядом"
+                    ]
+                },
+                "living": {
+                    "title": "Гостиная",
+                    "items": [
+                        "Плоский телевизор (мин. 32 дюйма)",
+                        "Зона отдыха",
+                        "Обеденный стол",
+                        "Шкаф с вешалками"
+                    ]
+                },
+                "kitchen": {
+                    "title": "Кухня",
+                    "items": [
+                        "2 конфорки",
+                        "Холодильник с морозильником",
+                        "Микроволновка",
+                        "Кухонный инвентарь",
+                        "Столовые приборы & посуда",
+                        "Водопроводная вода пригодна для питья"
+                    ]
+                },
+                "bathroom": {
+                    "title": "Ванная",
+                    "items": [
+                        "Душ",
+                        "Полотенца"
+                    ]
+                },
+                "cleaning": {
+                    "title": "Уборка",
+                    "items": [
+                        "Еженедельная профессиональная уборка",
+                        "Стиральная машина (платно)",
+                        "Сушилка (платно)",
+                        "Сушилка для белья (бесплатно)",
+                        "Чистящие средства (бесплатно)"
+                    ]
+                },
+                "premiumExtras": {
+                    "title": "Дополнительно – Премиум",
+                    "items": [
+                        "Кофемашина",
+                        "Мини-бар с напитками и закусками",
+                        "Сейф",
+                        "Кровать King Size",
+                        "Эксклюзивная мебель"
+                    ]
+                },
+                "notPossible": {
+                    "title": "Не разрешено",
+                    "items": [
+                        "Домашние животные",
+                        "Кондиционер",
+                        "Парковка"
+                    ]
+                }
+            },
+            "premium": {
+                "title": "Premium Appartement",
+                "price": "От €120 / ночь",
+                "description": "Почувствуйте роскошь в нашем просторном Premium Appartement с эксклюзивной мебелью, кроватью king size, мини-баром и захватывающим видом на город.",
+                "features": [
+                    "Кровать King Size",
+                    "Вид на город",
+                    "Smart TV",
+                    "Мини-бар"
+                ]
+            },
+            "standard": {
+                "title": "Comfort Appartement",
+                "price": "От €75 / ночь",
+                "description": "Наш Comfort Appartement предлагает всё необходимое для приятного отдыха — полностью оборудованная кухня, Smart TV и центральное расположение.",
+                "features": [
+                    "Кровать Queen Size",
+                    "Вид на сад",
+                    "Рабочий стол",
+                    "Кофемашина"
+                ]
+            }
+        },
+        "location": {
+            "title": "Местоположение",
+            "addressTitle": "Адрес",
+            "street": "Rosenstraße 2",
+            "city": "66111 Саарбрюккен",
+            "country": "Германия",
+            "arrivalTitle": "Как добраться",
+            "arrival": [
+                "Hauptbahnhof Saarbrücken – 2 Km (15 мин пешком)",
+                "S-Landwehrplatz – 300 м (4 мин пешком)",
+                "Автобус: St. Johanner Markt – 420 м",
+                "Автобус: Paul-Marienstraße – 200 м",
+                "A620 – 2,5 км на машине",
+                "A6 – 15 км на машине"
+            ],
+            "nearbyTitle": "Рядом",
+            "nearby": [
+                "St. Johanner Markt (центр города) – 350 м",
+                "Saarland Museum Moderne Galerie – 550 м",
+                "Saarbrücker Schloss – 650 м",
+                "Saarländisches Staatstheater – 400 м",
+                "Landgericht Saarbrücken – 500 м",
+                "Edeka Lohnsdorfer – 1,2 км",
+                "Aldi / Lidl – 900 м"
+            ]
+        },
+        "reservation": {
+            "title": "Забронируйте проживание",
+            "checkIn": "Дата заезда",
+            "checkOut": "Дата выезда",
+            "guests": "Гости",
+            "button": "Проверить наличие"
+        },
+        "contact": {
+            "title": "Свяжитесь с нами",
+            "name": "Ваше имя",
+            "email": "Ваш email",
+            "message": "Ваше сообщение",
+            "send": "Отправить сообщение"
+        },
+        "footer": {
+            "copyright": "© 2026 Rosen Apartments. Все права защищены."
         }
     }
 }

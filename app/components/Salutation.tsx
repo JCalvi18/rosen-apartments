@@ -1,30 +1,20 @@
 "use client";
 
 import React from 'react';
-import { useKeenSlider } from 'keen-slider/react';
-import 'keen-slider/keen-slider.min.css';
 import { salutationStyles } from './Salutation.styles';
 import { useLanguage } from '../context/LanguageContext';
 
-// Placeholder images
 const images = [
-    "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80",
-    "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80",
-    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+    '/images/salutation/front1.JPG',
+    '/images/salutation/front2.JPG',
+    '/images/salutation/front3.JPG',
+    '/images/salutation/front4.JPG',
+    '/images/salutation/front5.JPG',
 ];
 
 export const Salutation: React.FC = () => {
     const { t } = useLanguage();
     const content = t.salutation;
-
-    const [sliderRef] = useKeenSlider<HTMLDivElement>({
-        loop: true,
-        mode: "free-snap",
-        slides: {
-            perView: 1,
-            spacing: 15,
-        },
-    });
 
     return (
         <section className={salutationStyles.section}>
@@ -38,13 +28,28 @@ export const Salutation: React.FC = () => {
                     </p>
                 </div>
 
-                <div className={salutationStyles.slider.wrapper}>
-                    <div ref={sliderRef} className={salutationStyles.slider.container}>
-                        {images.map((src, idx) => (
-                            <div key={idx} className={salutationStyles.slider.slide}>
-                                <img src={src} alt={`Slide ${idx + 1}`} className={salutationStyles.slider.image} />
-                            </div>
-                        ))}
+                <div className={salutationStyles.imageGrid.wrapper}>
+                    <div className={salutationStyles.imageGrid.grid}>
+                        {/* Col 1, Row 1 */}
+                        <div className={salutationStyles.imageGrid.cellWide}>
+                            <img src={images[0]} alt="Apartment view 1" className={salutationStyles.imageGrid.image} />
+                        </div>
+                        {/* Col 2–3, Row 1 (wide) */}
+                        <div className={salutationStyles.imageGrid.cell}>
+                            <img src={images[1]} alt="Apartment view 2" className={salutationStyles.imageGrid.image} />
+                        </div>
+                        {/* Col 1, Row 2 */}
+                        <div className={salutationStyles.imageGrid.cell}>
+                            <img src={images[2]} alt="Apartment view 3" className={salutationStyles.imageGrid.image} />
+                        </div>
+                        {/* Col 2, Row 2 */}
+                        <div className={salutationStyles.imageGrid.cell}>
+                            <img src={images[3]} alt="Apartment view 4" className={salutationStyles.imageGrid.image} />
+                        </div>
+                        {/* Col 3, Row 2 */}
+                        <div className={salutationStyles.imageGrid.cell}>
+                            <img src={images[4]} alt="Apartment view 5" className={`${salutationStyles.imageGrid.image}`} />
+                        </div>
                     </div>
                 </div>
             </div>
