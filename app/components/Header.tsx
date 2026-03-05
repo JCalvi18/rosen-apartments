@@ -26,11 +26,11 @@ export const Header: React.FC = () => {
 
     const sectionNav = (t.header as any).sectionNav;
     const sections = [
-        { id: 'rooms',       label: sectionNav.rooms },
-        { id: 'location',    label: sectionNav.location },
-        { id: 'reviews',     label: sectionNav.reviews },
-        { id: 'reservation', label: sectionNav.reservation },
-        { id: 'contact',     label: sectionNav.contact },
+        { id: 'rooms', label: sectionNav.rooms },
+        { id: 'location', label: sectionNav.location },
+        { id: 'reviews', label: sectionNav.reviews },
+        // { id: 'reservation', label: sectionNav.reservation },
+        // { id: 'contact',     label: sectionNav.contact },
     ];
 
     useEffect(() => {
