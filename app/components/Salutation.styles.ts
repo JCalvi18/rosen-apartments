@@ -1,5 +1,5 @@
 export const salutationStyles = {
-    section: "relative bg-white pt-16 pb-20 lg:pt-24 lg:pb-28 overflow-hidden",
+    section: "relative bg-white pt-8 pb-20 lg:pt-8 lg:pb-28 overflow-hidden",
     container: "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
     contentWrapper: "text-center mb-12",
     branding: {

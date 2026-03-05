@@ -11,7 +11,10 @@ export const roomCardStyles = {
     description: "text-gray-500 text-sm leading-relaxed line-clamp-2",
     readMore: "mt-1 text-blue-600 text-sm font-medium hover:underline self-start cursor-pointer",
     divider: "mt-4 border-gray-200",
-    price: "pt-4 pb-6 text-lg font-semibold text-gray-900",
+    priceContainer: "pt-4 pb-6 flex gap-6",
+    priceCol: "flex flex-col gap-1",
+    priceLabel: "text-xs font-medium text-blue-600 uppercase tracking-wide",
+    price: "text-base font-semibold text-gray-900",
 
     // Modal
     overlay: "fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4",

@@ -1,7 +1,7 @@
 export const informationStyles = {
     section: "py-16 bg-white",
-    container: "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12",
-    cardRow: "grid grid-cols-1 sm:grid-cols-2 gap-8",
+    container: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12",
+    cardRow: "grid grid-cols-1 sm:grid-cols-3 gap-8",
 
     // Shared amenities strip
     sharedSection: "bg-gray-50 rounded-2xl px-8 py-8",

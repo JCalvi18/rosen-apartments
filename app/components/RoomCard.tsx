@@ -18,7 +18,10 @@ interface RoomCardProps {
     title: string;
     images: string[];
     description: string;
-    price: string;
+    priceWeekday: string;
+    priceWeekend: string;
+    weekdayLabel: string;
+    weekendLabel: string;
     tiles: Tile[];
 }
 
@@ -26,7 +29,10 @@ export const RoomCard: React.FC<RoomCardProps> = ({
     title,
     images,
     description,
-    price,
+    priceWeekday,
+    priceWeekend,
+    weekdayLabel,
+    weekendLabel,
     tiles,
 }) => {
     return (
@@ -51,7 +57,16 @@ export const RoomCard: React.FC<RoomCardProps> = ({
             <div className={styles.body}>
                 <p className={styles.description}>{description}</p>
                 <hr className={styles.divider} />
-                <p className={styles.price}>{price}</p>
+                <div className={styles.priceContainer}>
+                    <div className={styles.priceCol}>
+                        <p className={styles.priceLabel}>{weekdayLabel}</p>
+                        <p className={styles.price}>{priceWeekday}</p>
+                    </div>
+                    <div className={styles.priceCol}>
+                        <p className={styles.priceLabel}>{weekendLabel}</p>
+                        <p className={styles.price}>{priceWeekend}</p>
+                    </div>
+                </div>
             </div>
         </div>
     );

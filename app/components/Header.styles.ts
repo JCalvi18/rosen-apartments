@@ -22,9 +22,9 @@ export const headerStyles = {
   },
   sectionNav: {
     bar: "overflow-hidden transition-all duration-300 border-t border-gray-100",
-    barVisible: "max-h-10 opacity-100",
+    barVisible: "max-h-15 opacity-100",
     barHidden: "max-h-0 opacity-0",
-    inner: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-1 h-10",
+    inner: "m-2 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-around gap-1 h-10",
     link: "px-3 py-1 text-sm text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors font-medium whitespace-nowrap",
   },
 };

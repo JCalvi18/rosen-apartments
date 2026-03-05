@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { salutationStyles } from './Salutation.styles';
-import { useLanguage } from '../context/LanguageContext';
 
 const images = [
     '/images/salutation/front1.JPG',
@@ -13,20 +12,9 @@ const images = [
 ];
 
 export const Salutation: React.FC = () => {
-    const { t } = useLanguage();
-    const content = t.salutation;
-
     return (
         <section className={salutationStyles.section}>
             <div className={salutationStyles.container}>
-                <div className={salutationStyles.contentWrapper}>
-                    <h1 className={salutationStyles.branding.title}>
-                        {content.brandName}
-                    </h1>
-                    <p className={salutationStyles.branding.slogan}>
-                        {content.slogan}
-                    </p>
-                </div>
 
                 <div className={salutationStyles.imageGrid.wrapper}>
                     <div className={salutationStyles.imageGrid.grid}>

@@ -15,10 +15,10 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-    const [language, setLanguage] = useState<Language>('en');
+    const [language, setLanguage] = useState<Language>('de');
 
     // Safety check to fallback to English if translation is missing (though our JSON is complete)
-    const t = (content as any)[language] || content['en'];
+    const t = (content as any)[language] || content['de'];
 
     return (
         <LanguageContext.Provider value={{ language, setLanguage, t }}>

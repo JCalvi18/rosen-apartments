@@ -15,13 +15,11 @@
                 "contact": "Contact"
             }
         },
-        "salutation": {
-            "brandName": "Rosen Appartements",
-            "slogan": "Your comfortable home stay in Saarbrücken"
-        },
         "information": {
             "readMore": "Read more",
             "amenitiesHeading": "Every appartement includes",
+            "weekdayLabel": "Mon–Thu",
+            "weekendLabel": "Fri–Sun",
             "tiles": {
                 "checkIn": "24/7 Check-in",
                 "towels": "Towels",
@@ -34,7 +32,8 @@
                 "kingsizeBed": "Kingsize Bed",
                 "queenBed": "Queen Bed",
                 "singleBed": "Two single bed",
-                "safe": "Safe"
+                "safe": "Safe",
+                "parking": "Parking"
             },
             "modal": {
                 "close": "Close",
@@ -108,14 +107,12 @@
                     "title": "Not possible",
                     "items": [
                         "Pets",
-                        "Air conditioning",
-                        "Car parking"
+                        "Air conditioning"
                     ]
                 }
             },
             "premium": {
                 "title": "Premium Appartement",
-                "price": "From €120 / night",
                 "description": "Experience luxury in our spacious Premium Appartement, featuring exclusive furniture, a kingsize bed, minibar, and breathtaking city views.",
                 "features": [
                     "Kingsize Bed",
@@ -126,7 +123,6 @@
             },
             "standard": {
                 "title": "Comfort Appartement",
-                "price": "From €75 / night",
                 "description": "Our comfortable Comfort Appartement offers everything you need for a relaxing stay — fully equipped kitchen, smart TV, and a central location.",
                 "features": [
                     "Queen Size Bed",
@@ -137,7 +133,6 @@
             },
             "studio": {
                 "title": "Studio Appartement",
-                "price": "From €75 / night",
                 "description": "Our studio twin Comfort Appartement offers two beds with everything you need for a relaxing stay — fully equipped kitchen, smart TV, and a central location.",
                 "features": [
                     "Twin Bed",
@@ -187,6 +182,11 @@
             "message": "Your Message",
             "send": "Send Message"
         },
+        "cta": {
+            "heading": "Ready to book?",
+            "emailButton": "Book with us",
+            "bookingButton": "Book on Booking.com"
+        },
         "footer": {
             "copyright": "© 2026 Rosen Apartments. All rights reserved."
         }
@@ -207,13 +207,11 @@
                 "contact": "Kontakt"
             }
         },
-        "salutation": {
-            "brandName": "Rosen Apartments",
-            "slogan": "Ihr komfortabler Aufenthalt in unserer schönen Stadt"
-        },
         "information": {
             "readMore": "Mehr lesen",
             "amenitiesHeading": "Jedes Appartement beinhaltet",
+            "weekdayLabel": "Mo–Do",
+            "weekendLabel": "Fr–So",
             "tiles": {
                 "checkIn": "24/7 Check-in",
                 "towels": "Handtücher",
@@ -225,7 +223,9 @@
                 "coffee": "Kaffeemaschine",
                 "kingsizeBed": "Kingsize-Bett",
                 "queenBed": "Queensize-Bett",
-                "safe": "Safe"
+                "safe": "Safe",
+                "parking": "Parkplatz",
+                "singleBed": "Zwei Einzelbetten"
             },
             "modal": {
                 "close": "Schließen",
@@ -299,14 +299,12 @@
                     "title": "Nicht möglich",
                     "items": [
                         "Haustiere",
-                        "Klimaanlage",
-                        "Autoparkplatz"
+                        "Klimaanlage"
                     ]
                 }
             },
             "premium": {
                 "title": "Premium Appartement",
-                "price": "Ab €120 / Nacht",
                 "description": "Erleben Sie Luxus in unserem geräumigen Premium Appartement mit exklusivem Mobiliar, Kingsize-Bett, Minibar und atemberaubendem Stadtblick.",
                 "features": [
                     "Kingsize-Bett",
@@ -317,10 +315,19 @@
             },
             "standard": {
                 "title": "Comfort Appartement",
-                "price": "Ab €75 / Nacht",
                 "description": "Unser Comfort Appartement bietet alles für einen erholsamen Aufenthalt – vollausgestattete Küche, Smart TV und zentrale Lage.",
                 "features": [
                     "Queensize-Bett",
+                    "Gartenblick",
+                    "Schreibtisch",
+                    "Kaffeemaschine"
+                ]
+            },
+            "studio": {
+                "title": "Studio Appartement",
+                "description": "Unser Studio-Appartement bietet zwei Einzelbetten und alles, was Sie für einen erholsamen Aufenthalt benötigen – vollausgestattete Küche, Smart TV und zentrale Lage.",
+                "features": [
+                    "Zwei Einzelbetten",
                     "Gartenblick",
                     "Schreibtisch",
                     "Kaffeemaschine"
@@ -367,6 +374,11 @@
             "message": "Ihre Nachricht",
             "send": "Nachricht senden"
         },
+        "cta": {
+            "heading": "Bereit zur Buchung?",
+            "emailButton": "Direkt buchen",
+            "bookingButton": "Auf Booking.com buchen"
+        },
         "footer": {
             "copyright": "© 2026 Rosen Apartments. Alle Rechte vorbehalten."
         }
@@ -387,13 +399,11 @@
                 "contact": "Contact"
             }
         },
-        "salutation": {
-            "brandName": "Rosen Apartments",
-            "slogan": "Votre séjour confortable dans notre belle ville"
-        },
         "information": {
             "readMore": "Lire la suite",
             "amenitiesHeading": "Chaque appartement comprend",
+            "weekdayLabel": "Lun–Jeu",
+            "weekendLabel": "Ven–Dim",
             "tiles": {
                 "checkIn": "Check-in 24h/24",
                 "towels": "Serviettes",
@@ -405,7 +415,9 @@
                 "coffee": "Machine à café",
                 "kingsizeBed": "Lit King Size",
                 "queenBed": "Lit Queen Size",
-                "safe": "Coffre-fort"
+                "safe": "Coffre-fort",
+                "parking": "Parking",
+                "singleBed": "Deux lits simples"
             },
             "modal": {
                 "close": "Fermer",
@@ -479,14 +491,12 @@
                     "title": "Non autorisé",
                     "items": [
                         "Animaux",
-                        "Climatisation",
-                        "Parking voiture"
+                        "Climatisation"
                     ]
                 }
             },
             "premium": {
                 "title": "Premium Appartement",
-                "price": "À partir de €120 / nuit",
                 "description": "Découvrez le luxe dans notre spacieux Premium Appartement, avec mobilier exclusif, lit king size, minibar et vue imprenable sur la ville.",
                 "features": [
                     "Lit King Size",
@@ -497,10 +507,19 @@
             },
             "standard": {
                 "title": "Comfort Appartement",
-                "price": "À partir de €75 / nuit",
                 "description": "Notre Comfort Appartement offre tout ce dont vous avez besoin pour un séjour relaxant — cuisine équipée, Smart TV et situation centrale.",
                 "features": [
                     "Lit Queen Size",
+                    "Vue sur le Jardin",
+                    "Bureau",
+                    "Machine à Café"
+                ]
+            },
+            "studio": {
+                "title": "Studio Appartement",
+                "description": "Notre studio propose deux lits simples et tout le nécessaire pour un séjour relaxant — cuisine équipée, Smart TV et situation centrale.",
+                "features": [
+                    "Deux lits simples",
                     "Vue sur le Jardin",
                     "Bureau",
                     "Machine à Café"
@@ -547,6 +566,11 @@
             "message": "Votre Message",
             "send": "Envoyer le message"
         },
+        "cta": {
+            "heading": "Prêt à réserver ?",
+            "emailButton": "Réserver avec nous",
+            "bookingButton": "Réserver sur Booking.com"
+        },
         "footer": {
             "copyright": "© 2026 Rosen Apartments. Tous droits réservés."
         }
@@ -567,13 +591,11 @@
                 "contact": "Contacto"
             }
         },
-        "salutation": {
-            "brandName": "Rosen Apartments",
-            "slogan": "Tu estancia cómoda en nuestra hermosa ciudad"
-        },
         "information": {
             "readMore": "Leer más",
             "amenitiesHeading": "Cada apartamento incluye",
+            "weekdayLabel": "Lun–Jue",
+            "weekendLabel": "Vie–Dom",
             "tiles": {
                 "checkIn": "Check-in 24/7",
                 "towels": "Toallas",
@@ -585,7 +607,9 @@
                 "coffee": "Cafetera",
                 "kingsizeBed": "Cama King Size",
                 "queenBed": "Cama Queen",
-                "safe": "Caja fuerte"
+                "safe": "Caja fuerte",
+                "parking": "Aparcamiento",
+                "singleBed": "Dos camas individuales"
             },
             "modal": {
                 "close": "Cerrar",
@@ -659,14 +683,12 @@
                     "title": "No permitido",
                     "items": [
                         "Mascotas",
-                        "Aire acondicionado",
-                        "Aparcamiento"
+                        "Aire acondicionado"
                     ]
                 }
             },
             "premium": {
                 "title": "Premium Appartement",
-                "price": "Desde €120 / noche",
                 "description": "Experimente el lujo en nuestro amplio Premium Appartement, con mobiliario exclusivo, cama king size, minibar y vistas impresionantes a la ciudad.",
                 "features": [
                     "Cama King Size",
@@ -677,10 +699,19 @@
             },
             "standard": {
                 "title": "Comfort Appartement",
-                "price": "Desde €75 / noche",
                 "description": "Nuestro Comfort Appartement ofrece todo lo que necesitas para una estancia relajante — cocina totalmente equipada, Smart TV y ubicación céntrica.",
                 "features": [
                     "Cama Queen Size",
+                    "Vista al jardín",
+                    "Escritorio",
+                    "Cafetera"
+                ]
+            },
+            "studio": {
+                "title": "Studio Appartement",
+                "description": "Nuestro estudio ofrece dos camas individuales y todo lo necesario para una estancia relajante — cocina totalmente equipada, Smart TV y ubicación céntrica.",
+                "features": [
+                    "Dos camas individuales",
                     "Vista al jardín",
                     "Escritorio",
                     "Cafetera"
@@ -727,6 +758,11 @@
             "message": "Su mensaje",
             "send": "Enviar mensaje"
         },
+        "cta": {
+            "heading": "¿Listo para reservar?",
+            "emailButton": "Reservar con nosotros",
+            "bookingButton": "Reservar en Booking.com"
+        },
         "footer": {
             "copyright": "© 2026 Rosen Apartments. Todos los derechos reservados."
         }
@@ -747,13 +783,11 @@
                 "contact": "Контакт"
             }
         },
-        "salutation": {
-            "brandName": "Rosen Apartments",
-            "slogan": "Ваш комфортный отдых в нашем прекрасном городе"
-        },
         "information": {
             "readMore": "Читать далее",
             "amenitiesHeading": "В каждом апартаменте включено",
+            "weekdayLabel": "Пн–Чт",
+            "weekendLabel": "Пт–Вс",
             "tiles": {
                 "checkIn": "Заезд 24/7",
                 "towels": "Полотенца",
@@ -765,7 +799,9 @@
                 "coffee": "Кофемашина",
                 "kingsizeBed": "Кровать King Size",
                 "queenBed": "Кровать Queen",
-                "safe": "Сейф"
+                "safe": "Сейф",
+                "parking": "Парковка",
+                "singleBed": "Две односпальные кровати"
             },
             "modal": {
                 "close": "Закрыть",
@@ -839,14 +875,12 @@
                     "title": "Не разрешено",
                     "items": [
                         "Домашние животные",
-                        "Кондиционер",
-                        "Парковка"
+                        "Кондиционер"
                     ]
                 }
             },
             "premium": {
                 "title": "Premium Appartement",
-                "price": "От €120 / ночь",
                 "description": "Почувствуйте роскошь в нашем просторном Premium Appartement с эксклюзивной мебелью, кроватью king size, мини-баром и захватывающим видом на город.",
                 "features": [
                     "Кровать King Size",
@@ -857,10 +891,19 @@
             },
             "standard": {
                 "title": "Comfort Appartement",
-                "price": "От €75 / ночь",
                 "description": "Наш Comfort Appartement предлагает всё необходимое для приятного отдыха — полностью оборудованная кухня, Smart TV и центральное расположение.",
                 "features": [
                     "Кровать Queen Size",
+                    "Вид на сад",
+                    "Рабочий стол",
+                    "Кофемашина"
+                ]
+            },
+            "studio": {
+                "title": "Studio Appartement",
+                "description": "Наш студио предлагает две односпальные кровати и всё необходимое для приятного отдыха — полностью оборудованная кухня, Smart TV и центральное расположение.",
+                "features": [
+                    "Две односпальные кровати",
                     "Вид на сад",
                     "Рабочий стол",
                     "Кофемашина"
@@ -906,6 +949,11 @@
             "email": "Ваш email",
             "message": "Ваше сообщение",
             "send": "Отправить сообщение"
+        },
+        "cta": {
+            "heading": "Готовы забронировать?",
+            "emailButton": "Забронировать напрямую",
+            "bookingButton": "Забронировать на Booking.com"
         },
         "footer": {
             "copyright": "© 2026 Rosen Apartments. Все права защищены."

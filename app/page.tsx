@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { Salutation } from "./components/Salutation";
 import { Information } from "./components/Information";
+import { BookingCta } from "./components/BookingCta";
 import { QuickFacts } from "./components/QuickFacts";
 import { Reviews } from "./components/Reviews";
 import { Location } from "./components/Location";
@@ -14,11 +15,12 @@ export default function Home() {
       <Header />
       <Salutation />
       <Information />
+      <BookingCta />
       <QuickFacts />
       <Location />
       <Reviews />
-      <Reservation />
-      <ContactForm />
+      {/* <Reservation /> */}
+      {/* <ContactForm /> */}
       <Footer />
     </main>
   );
