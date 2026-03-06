@@ -13,14 +13,14 @@ const BookingComIcon = ({ size = 22 }: { size?: number }) => (
 );
 
 const BOOKING_URL = 'https://www.booking.com/hotel/de/rosenappartements.html'; // TODO: replace with your property URL
-const EMAIL = 'booking@rosen-apartments.de';
+const EMAIL = 'rosenappartements@web.de';
 
 export const BookingCta: React.FC = () => {
     const { t } = useLanguage();
     const content = (t as any).cta;
 
     return (
-        <section className={styles.section}>
+        <section id="booking" className={styles.section}>
             <div className={styles.container}>
                 <h2 className={styles.heading}>{content.heading}</h2>
                 <div className={styles.buttons}>

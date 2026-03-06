@@ -119,6 +119,12 @@ export const Header: React.FC = () => {
                             {s.label}
                         </button>
                     ))}
+                    <button
+                        onClick={() => scrollTo('booking')}
+                        className={headerStyles.sectionNav.bookButton}
+                    >
+                        {sectionNav.book}
+                    </button>
                 </div>
             </div>
         </header>

@@ -35,6 +35,9 @@ export const RoomCard: React.FC<RoomCardProps> = ({
     weekendLabel,
     tiles,
 }) => {
+    const dayName = new Intl.DateTimeFormat('en-US', { weekday: 'short', timeZone: 'Europe/Berlin' }).format(new Date());
+    const isWeekend = dayName === 'Fri' || dayName === 'Sat' || dayName === 'Sun';
+
     return (
         <div className={styles.card}>
             <h2 className={styles.title}>{title}</h2>
@@ -59,12 +62,7 @@ export const RoomCard: React.FC<RoomCardProps> = ({
                 <hr className={styles.divider} />
                 <div className={styles.priceContainer}>
                     <div className={styles.priceCol}>
-                        <p className={styles.priceLabel}>{weekdayLabel}</p>
-                        <p className={styles.price}>{priceWeekday}</p>
-                    </div>
-                    <div className={styles.priceCol}>
-                        <p className={styles.priceLabel}>{weekendLabel}</p>
-                        <p className={styles.price}>{priceWeekend}</p>
+                        <p className={styles.price}>{isWeekend ? priceWeekend : priceWeekday}</p>
                     </div>
                 </div>
             </div>

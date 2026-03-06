@@ -39,15 +39,15 @@ const studioImages = [
     '/images/appartements/studio4.JPG',
 ];
 
-const roomPrices = {
-    premium: { weekday: '€98 / night', weekend: '€119 / night' },
-    standard: { weekday: '€68 / night', weekend: '€75 / night' },
-    studio: { weekday: '€68 / night', weekend: '€75 / night' },
-} as const;
-
 export const Information: React.FC = () => {
     const { t } = useLanguage();
     const content = t.information as any;
+
+    const roomPrices = {
+        premium: { weekday: `€98 / ${content.night}`, weekend: `€119 / ${content.night}` },
+        standard: { weekday: `€68 / ${content.night}`, weekend: `€75 / ${content.night}` },
+        studio: { weekday: `€68 / ${content.night}`, weekend: `€75 / ${content.night}` },
+    };
     const tl = content.tiles;
 
     const commonTiles: Tile[] = [

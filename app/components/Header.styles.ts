@@ -26,5 +26,6 @@ export const headerStyles = {
     barHidden: "max-h-0 opacity-0",
     inner: "m-2 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-around gap-1 h-10",
     link: "px-3 py-1 text-sm text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors font-medium whitespace-nowrap",
+    bookButton: "px-4 py-1 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors whitespace-nowrap",
   },
 };

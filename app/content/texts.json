@@ -12,7 +12,8 @@
                 "location": "Location",
                 "reviews": "Reviews",
                 "reservation": "Reservation",
-                "contact": "Contact"
+                "contact": "Contact",
+                "book": "Book with us"
             }
         },
         "information": {
@@ -20,6 +21,7 @@
             "amenitiesHeading": "Every appartement includes",
             "weekdayLabel": "Mon–Thu",
             "weekendLabel": "Fri–Sun",
+            "night": "night",
             "tiles": {
                 "checkIn": "24/7 Check-in",
                 "towels": "Towels",
@@ -204,7 +206,8 @@
                 "location": "Lage",
                 "reviews": "Bewertungen",
                 "reservation": "Reservierung",
-                "contact": "Kontakt"
+                "contact": "Kontakt",
+                "book": "Jetzt buchen"
             }
         },
         "information": {
@@ -212,6 +215,7 @@
             "amenitiesHeading": "Jedes Appartement beinhaltet",
             "weekdayLabel": "Mo–Do",
             "weekendLabel": "Fr–So",
+            "night": "Nacht",
             "tiles": {
                 "checkIn": "24/7 Check-in",
                 "towels": "Handtücher",
@@ -396,7 +400,8 @@
                 "location": "Emplacement",
                 "reviews": "Avis",
                 "reservation": "Réservation",
-                "contact": "Contact"
+                "contact": "Contact",
+                "book": "Réserver"
             }
         },
         "information": {
@@ -404,6 +409,7 @@
             "amenitiesHeading": "Chaque appartement comprend",
             "weekdayLabel": "Lun–Jeu",
             "weekendLabel": "Ven–Dim",
+            "night": "nuit",
             "tiles": {
                 "checkIn": "Check-in 24h/24",
                 "towels": "Serviettes",
@@ -588,7 +594,8 @@
                 "location": "Ubicación",
                 "reviews": "Reseñas",
                 "reservation": "Reserva",
-                "contact": "Contacto"
+                "contact": "Contacto",
+                "book": "Reservar"
             }
         },
         "information": {
@@ -596,6 +603,7 @@
             "amenitiesHeading": "Cada apartamento incluye",
             "weekdayLabel": "Lun–Jue",
             "weekendLabel": "Vie–Dom",
+            "night": "noche",
             "tiles": {
                 "checkIn": "Check-in 24/7",
                 "towels": "Toallas",
@@ -780,7 +788,8 @@
                 "location": "Местоположение",
                 "reviews": "Отзывы",
                 "reservation": "Бронирование",
-                "contact": "Контакт"
+                "contact": "Контакт",
+                "book": "Забронировать"
             }
         },
         "information": {
@@ -788,6 +797,7 @@
             "amenitiesHeading": "В каждом апартаменте включено",
             "weekdayLabel": "Пн–Чт",
             "weekendLabel": "Пт–Вс",
+            "night": "ночь",
             "tiles": {
                 "checkIn": "Заезд 24/7",
                 "towels": "Полотенца",
