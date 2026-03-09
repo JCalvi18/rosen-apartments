@@ -4,10 +4,10 @@ import React from 'react';
 import { salutationStyles } from './Salutation.styles';
 
 const images = [
+    '/images/appartements/premium1.JPG',
     '/images/salutation/front1.JPG',
     '/images/salutation/front2.JPG',
     '/images/salutation/front3.JPG',
-    '/images/salutation/front4.JPG',
     '/images/salutation/front5.JPG',
 ];
 
