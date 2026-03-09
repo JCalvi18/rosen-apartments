@@ -15,8 +15,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rosen Appartments",
-  description: "Rosen Appartments",
+  title: "Rosen Apartments Saarbrücken – Central Furnished Apartments | 24/7 Check-in",
+  description: "Fully furnished apartments in the heart of Saarbrücken. Premium, Comfort & Studio options with full kitchen, Smart TV & 24/7 self check-in. From Rosenstraße 2.",
+  openGraph: {
+    title: "Rosen Apartments Saarbrücken – Central Furnished Apartments | 24/7 Check-in",
+    description: "Fully furnished apartments in the heart of Saarbrücken. Premium, Comfort & Studio options with full kitchen, Smart TV & 24/7 self check-in. From Rosenstraße 2.",
+    images: [{ url: "/images/appartements/premium1.JPG" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rosen Apartments Saarbrücken – Central Furnished Apartments | 24/7 Check-in",
+    description: "Fully furnished apartments in the heart of Saarbrücken. Premium, Comfort & Studio options with full kitchen, Smart TV & 24/7 self check-in. From Rosenstraße 2.",
+    images: ["/images/appartements/premium1.JPG"],
+  },
 };
 
 export default function RootLayout({
