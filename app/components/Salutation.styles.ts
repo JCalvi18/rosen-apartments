@@ -8,9 +8,7 @@ export const salutationStyles = {
     },
     imageGrid: {
         wrapper: "mt-10",
-        grid: "grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-2 gap-2 h-[480px]",
-        cell: "hidden sm:block rounded-xl overflow-hidden",
-        cellWide: "sm:row-span-2 rounded-xl overflow-hidden",
+        imageContainer: "rounded-xl overflow-hidden sm:h-[480px] lg:h-[720px]",
         image: "w-full h-full object-cover",
     }
 };
