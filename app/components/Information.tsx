@@ -21,6 +21,8 @@ const premiumImages = [
     '/images/appartements/premium2.JPG',
     '/images/appartements/premium3.JPG',
     '/images/appartements/premium4.JPG',
+    '/images/appartements/premium5.JPG',
+    '/images/appartements/premium6.JPG',
 ];
 
 const comfortImages = [

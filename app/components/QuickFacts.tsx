@@ -35,7 +35,7 @@ export const QuickFacts: React.FC = () => {
 
             {showModal && (
                 <RoomModal
-                    title={content.premium.title}
+                    title={content.additionalInfoTitle}
                     modalCloseLabel={m.close}
                     modalSections={allSections}
                     onClose={() => setShowModal(false)}
